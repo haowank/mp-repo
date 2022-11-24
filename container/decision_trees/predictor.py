@@ -80,4 +80,4 @@ def transformation():
     pd.DataFrame({'results':predictions}).to_csv(out, header=False, index=False)
     result = out.getvalue()
 
-    return flask.Response(response=result, status=200, mimetype='text/csv')
+    return flask.Response(response=result, status=200, mimetype='text/csv') 
