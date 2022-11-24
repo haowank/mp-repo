@@ -1,7 +1,7 @@
 [
     {
       "ParameterKey": "GitHubRepo",
-      "ParameterValue": "codepipeline-ecr-build-sf-execution"
+      "ParameterValue": "mp-repo"
     },
     {
         "ParameterKey": "GitHubBranch",
@@ -9,14 +9,15 @@
       },
       {
         "ParameterKey": "GitHubToken",
-        "ParameterValue": ""
+        "ParameterValue": "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"
       },
       {
         "ParameterKey": "GitHubUser",
-        "ParameterValue": ""
+        "ParameterValue": "haowank"
       },
       {
         "ParameterKey": "MlOpsStepFunctionArn",
-        "ParameterValue": ""
+        "ParameterValue": "arn:aws:states:ap-southeast-1:504349468854:stateMachine:MLOpsStepFunction-504349468854"
       }
 ]
+
